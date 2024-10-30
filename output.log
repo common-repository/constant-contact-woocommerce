@@ -1,0 +1,58 @@
+Running php-build composer
+WARNING! Your password will be stored unencrypted in /home/runner/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
+Pulling docker.pkg.github.com/webdevstudios/constant-contact-woocommerce/php-actions_composer_constant-contact-woocommerce:php-7-build2
+php-7-build2: Pulling from webdevstudios/constant-contact-woocommerce/php-actions_composer_constant-contact-woocommerce
+59bf1c3509f3: Pulling fs layer
+7c7da25b2876: Pulling fs layer
+2bc599114627: Pulling fs layer
+927a0b37a45a: Pulling fs layer
+1766f36e2432: Pulling fs layer
+4c13e0891ac6: Pulling fs layer
+96910ad0ba0c: Pulling fs layer
+0e19de6ed54b: Pulling fs layer
+048644398ce6: Pulling fs layer
+da5ccfe63489: Pulling fs layer
+4c13e0891ac6: Waiting
+96910ad0ba0c: Waiting
+0e19de6ed54b: Waiting
+048644398ce6: Waiting
+da5ccfe63489: Waiting
+927a0b37a45a: Waiting
+1766f36e2432: Waiting
+2bc599114627: Verifying Checksum
+2bc599114627: Download complete
+59bf1c3509f3: Verifying Checksum
+59bf1c3509f3: Download complete
+7c7da25b2876: Verifying Checksum
+7c7da25b2876: Download complete
+59bf1c3509f3: Pull complete
+927a0b37a45a: Verifying Checksum
+927a0b37a45a: Download complete
+4c13e0891ac6: Verifying Checksum
+4c13e0891ac6: Download complete
+1766f36e2432: Verifying Checksum
+1766f36e2432: Download complete
+0e19de6ed54b: Download complete
+7c7da25b2876: Pull complete
+2bc599114627: Pull complete
+927a0b37a45a: Pull complete
+048644398ce6: Verifying Checksum
+048644398ce6: Download complete
+1766f36e2432: Pull complete
+96910ad0ba0c: Download complete
+4c13e0891ac6: Pull complete
+da5ccfe63489: Download complete
+96910ad0ba0c: Pull complete
+0e19de6ed54b: Pull complete
+048644398ce6: Pull complete
+da5ccfe63489: Pull complete
+Digest: sha256:d9eb2fd25d2ca756b00f590241355d754b2a76945c5ec1b0a1c06b549329a8f2
+Status: Downloaded newer image for docker.pkg.github.com/webdevstudios/constant-contact-woocommerce/php-actions_composer_constant-contact-woocommerce:php-7-build2
+docker.pkg.github.com/webdevstudios/constant-contact-woocommerce/php-actions_composer_constant-contact-woocommerce:php-7-build2
+Docker tag: docker.pkg.github.com/webdevstudios/constant-contact-woocommerce/php-actions_composer_constant-contact-woocommerce:php-7-build2
+No private keys supplied
+Command: composer install --no-progress --no-interaction --no-dev

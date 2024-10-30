@@ -1,0 +1,193 @@
+body.toplevel_page_ctct-woo-settings,
+.cc-woo-wrap,
+.cc-woo-welcome-wrap {
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+body.toplevel_page_ctct-woo-settings .cc-wrap.woocommerce,
+.cc-woo-wrap {
+    padding: 20px 30px;
+    margin: 10px 20px 0 2px;
+    background-color: white;
+}
+
+.cc-woo-wrap h1,
+.cc-woo-welcome-wrap h1,
+body.toplevel_page_ctct-woo-settings h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.cc-woo-wrap h2,
+.cc-woo-welcome-wrap h2,
+body.toplevel_page_ctct-woo-settings h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.cc-woo-welcome-wrap {
+    padding: 80px 0px;
+    background-color: #ffff;
+}
+
+.cc-wrap,
+.cc-woo-wrap {
+    position: relative;
+}
+.cc-woo-welcome-wrap .container {
+    width: 80%;
+    min-height: 500px;
+    text-align: center;
+    margin: 80px auto auto;
+}
+
+
+a.cc-woo-back {
+    text-decoration: none;
+}
+
+tbody#cc-optional-fields tr:nth-child(2),
+tbody#cc-optional-fields tr:first-child {
+    display: inline-block;
+    width: 50%;
+}
+
+tbody#cc-optional-fields tr:nth-child(2) th,
+tbody#cc-optional-fields tr:nth-child(2) td,
+tbody#cc-optional-fields tr:first-child th,
+tbody#cc-optional-fields tr:first-child td {
+    display:block;
+}
+
+
+/* TBD*/
+
+.btn-wrap {
+    margin: 40px;
+}
+
+.btn-wrap a {
+    margin: 20px 10px;
+}
+
+a.cc-woo-btn.btn-alternate {
+    background-color: #fff;
+    color: #1856ED;
+}
+
+.cc-woo-btn {
+    border: 1px solid #1856ED;
+    transition: 0.2s ease-in all;
+    text-decoration: none;
+    border-radius: 50px !important;
+    color: #fff;
+    padding: 7px 14px;
+    margin: 20px auto;
+    width: fit-content;
+    background: #1856ED;
+}
+
+.cc-woo-wrap a.cc-woo-btn.btn-primary,
+body.toplevel_page_ctct-woo-settings a.cc-woo-btn.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.cc-woo-btn:hover {
+    box-shadow: 0 0 8px 4px rgb(70 150 240 / 25%) inset, 0 0 8px 4px rgb(70 150 240 / 25%);
+    border: 1px solid rgba(70,150,240,1);
+    color: #fff
+}
+
+.btn-alternate:hover {
+    color:#1856ED !important;
+}
+
+.form-table td {
+    margin-bottom: 9px;
+}
+
+
+
+body.toplevel_page_ctct-woo-settings td,
+body.toplevel_page_ctct-woo-settings th,
+.cc-woo-wrap td,
+.cc-woo-wrap th{
+    display: block;
+    padding: 6px 10px 6px 0;
+}
+
+
+body.toplevel_page_ctct-woo-settings input[type="email"],
+body.toplevel_page_ctct-woo-settings input[type="text"],
+.cc-woo-wrap table.form-table input[type="email"],
+.cc-woo-wrap table.form-table input[type="text"]{
+    width: 100% !important;
+    border-radius: 0px;
+}
+
+body.toplevel_page_ctct-woo-settings label,
+.cc-woo-wrap label {
+    font-weight: 400;
+}
+
+#cc_woo_store_information_currency,
+#cc_woo_store_information_country_code {
+    width: 25% !important;
+}
+
+input#cc_woo_save_store_details {
+    border-radius: 0px;
+    border: 1px soild #1856ed;
+}
+
+body.toplevel_page_ctct-woo-settings input[type="radio"]:active,
+body.toplevel_page_ctct-woo-settings input[type="radio"]:focus,
+body.toplevel_page_ctct-woo-settings input[type="radio"]:checked,
+.cc-woo-wrap input[type="radio"]:active,
+.cc-woo-wrap input[type="radio"]:checked,
+.cc-woo-wrap input[type="radio"]:focus {
+    border-color: #1856ED;
+    box-shadow: 0 0 0 1px #1856ED;
+    outline: 2px solid transparent;
+}
+
+body.toplevel_page_ctct-woo-settings th.titledesc,
+.cc-woo-wrap th.titledesc {
+    font-weight: 400;
+}
+
+.cc-woo-top-logo {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+}
+
+.cc-woo-top-logo img {
+    width: 43px;
+}
+
+input#cc_woo_save_store_details:checked {
+    background: #1856ED;
+    transition: all 0.2s ease-in-out;
+}
+
+input#cc_woo_save_store_details:checked::before {
+    filter: brightness(0) invert(1);
+}
+
+body.toplevel_page_ctct-woo-settings input[type="radio"]:checked::before,
+.cc-woo-wrap input[type="radio"]:checked::before {
+    background: #1856ED;
+}
+
+body.toplevel_page_ctct-woo-settings a:focus,
+.cc-woo-wrap a:focus {
+    outline: none;
+    box-shadow: none;
+}
